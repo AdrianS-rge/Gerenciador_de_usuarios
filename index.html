@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="container">
+        <form action="" id="user-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required><br>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required><br>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" placeholder="Idade" required><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email" required><br>
+
+            <button type="submit">Adicionar usuário</button>
+        </form>
+    </div>
+    <div id="user-container">
+        <h1>Lista de usuarios</h1>
+        <ul id="user-list"></ul>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
